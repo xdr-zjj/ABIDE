@@ -9,7 +9,7 @@ from RFHCC import BuildTree
 import numpy as np
 
 num_simulated = 100
-n_sample = 50
+n_sample = 500
 ans = []
 for i in range(num_simulated):
     x = np.random.uniform(0,1,n_sample)
